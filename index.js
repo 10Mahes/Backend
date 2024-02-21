@@ -21,13 +21,13 @@ app.get('/', (req, res) => {
 });
 
 
-mongoose.connect('mongodb+srv://smahes789:mahes2000@backenddb.ztk7bjb.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backendDB')
-   .then(() => {
-      console.log("Connected to db")
-      app.listen(PORT, () => {
-         console.log(`Server is running on port ${PORT}`)
-      })
-   })
-   .catch(() => {
-      console.log("Not Connected to DB");
-   })
+// mongoose.connect('mongodb+srv://smahes789:mahes2000@backenddb.ztk7bjb.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backendDB')
+//    .then(() => {
+//       console.log("Connected to db")
+//       app.listen(PORT, () => {
+//          console.log(`Server is running on port ${PORT}`)
+//       })
+//    })
+//    .catch(() => {
+//       console.log("Not Connected to DB");
+//    })
